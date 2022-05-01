@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            margin-top:100px
+        }
+       #container{
+           width: 30%;
+           margin:auto;
+           padding: 30px 20px;
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           border-radius: 10px;
+       } 
+       #form{
+           display: flex;
+           flex-direction: column;
+           width:80%;
+           margin:auto;
+       }
+       input{
+           height: 50px;
+           margin-bottom: 40px;
+           border-radius: 5px;
+           font-size: 20px;
+           border:1px solid gray
+       }
+       h3{
+           text-align: center;
+           margin-bottom: 60px;
+       }
+    </style>
+
+</head>
+<body>
+    <h1>Masai</h1>
+    <div id="container">
+        <h3>Sign Up</h3>
+        <form action="" id="form">
+            <h4>Full Name</h4>
+            <input type="text" id="name" placeholder="Enter Name">
+            <h4>Mobile No.</h4>
+            <input type="number" id="mob-no" placeholder="Enter Mobile No.">
+            <h4>Password</h4>
+            <input type="text" id="password" placeholder="Enter Password">
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
